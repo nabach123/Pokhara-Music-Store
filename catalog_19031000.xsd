@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Music_Store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="store_name">
+          <xs:annotation>
+            <xs:documentation>Author: Nabaraj Acharya Date: 1st May, 2021</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="address">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="provience"/>
+              <xs:element type="xs:string" name="district"/>
+              <xs:element type="xs:string" name="city"/>
+              <xs:element type="xs:int" name="postal_code"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contract_details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="telephone_no"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:anyURI" name="website_address"/>
+        <xs:element type="xs:string" name="logo"/>
+        <xs:element name="albums">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="album" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:string" name="genre"/>
+                    <xs:element type="xs:string" name="price"/>
+                    <xs:element type="xs:string" name="released_date"/>
+                    <xs:element type="xs:string" name="special_offer" minOccurs="0"/>
+                    <xs:element name="songs">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="song" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Image">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="id" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="song_name"/>
+                                <xs:element type="xs:string" name="director"/>
+                                <xs:element name="writers">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="h"/>
+                                      <xs:element type="xs:string" name="writer" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="producers">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="h"/>
+                                      <xs:element type="xs:string" name="producer" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="singers">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="h"/>
+                                      <xs:element type="xs:string" name="singer" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="length"/>
+                                <xs:element type="xs:string" name="song_released_date"/>
+                                <xs:element type="xs:string" name="awards" minOccurs="0"/>
+                                <xs:element type="xs:string" name="description"/>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="id" use="optional"/>
+                              <xs:attribute type="xs:string" name="year_range" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                  <xs:attribute type="xs:string" name="delivery_type" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="caterogy"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Songs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Song" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Image">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Song_name"/>
+                    <xs:element type="xs:string" name="Genre"/>
+                    <xs:element type="xs:string" name="Director"/>
+                    <xs:element name="Writers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="H"/>
+                          <xs:element type="xs:string" name="Writer" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Producers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="H"/>
+                          <xs:element type="xs:string" name="Producer" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Singers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="H"/>
+                          <xs:element type="xs:string" name="Singer" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Length"/>
+                    <xs:element type="xs:string" name="Song_released_date"/>
+                    <xs:element type="xs:string" name="Awards"/>
+                    <xs:element type="xs:string" name="Price"/>
+                    <xs:element type="xs:string" name="Description"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                  <xs:attribute type="xs:string" name="year_range" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:short" name="id"/>
+      <xs:attribute type="xs:string" name="established_Date"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

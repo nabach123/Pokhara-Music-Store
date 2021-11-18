@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="catalog_19031000.css" type="text/css"?><Music_Store id="358" established_Date="January 28, 1998"
+                                                                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                                           xsi:noNamespaceSchemaLocation="catalog_19031000.xsd">
+<!--
+Author: Nabaraj Acharya 
+Date: 1st May, 2021 
+-->
+<store_name>Pokhara Music House</store_name> 
+<address>
+<provience>Gandaki</provience>
+<district>Kaski</district>
+<city>Pokhara</city>
+<postal_code>33700</postal_code>
+</address>
+<contract_details>
+<telephone_no>061-573501</telephone_no>
+</contract_details>
+<website_address>www.pokharamusicstore.com</website_address> 
+<logo></logo>
+
+<albums caterogy="traditional">
+<album id="A1" delivery_type="free">
+<name>Justice</name>
+<genre>Pop Music</genre>
+<price>$105</price>
+<name>March 19, 2021</name>
+<songs>
+<song id="S1" year_range="Since 2021">
+<Image id="image_1"/>
+<song_name>Anyone</song_name>
+<director>Colin Tilley</director>
+<writers>
+<h>Writers</h>
+<writer>Justin Bieber</writer>
+<writer>Michael Pollack</writer>
+<writer>Raul Cubina</writer>
+</writers>
+<producers>
+<h>Producers</h>
+<producer>Andrew Watt</producer>
+<producer>Jon Bellion</producer>
+<producer>The Monsters and Strangerz</producer>
+</producers>
+<singers>
+<h>Singers</h>
+<singer>Justin Bieber</singer>
+</singers>
+<length>3:10</length>
+<song_released_date>January 1, 2021</song_released_date>
+<description>One of the best songs Bieber has ever released,
+ “Anyone” puts an exclamation point on his personal 
+and musical rebirth. The rose-colored glasses are off
+ in this vulnerable and raw love song, which intertwines 
+doubt that “You say that I won't lose you, but you can't
+ predict the future, 'cause certain things are out of 
+our control” with the simple certainty that “forever's 
+not enough time to love you the way that I want.”
+</description>
+
+</song>
+<song id="S2" year_range="Since 2020">
+<Image id="image_2"/>
+<song_name>Lonely</song_name>
+<director>Jake Schreier</director>
+<writers>
+<h>Writers</h>
+<writer>Justin Bieber</writer>
+<writer>Benjamin Levin</writer>
+<writer>Finneas O'Connell</writer>
+</writers>
+<producers>
+<h>Producers</h>
+<producer>Benny Blanco</producer>
+<producer>Finneas</producer>
+</producers>
+<singers>
+<h>Singers</h>
+<singer>Justin Bieber</singer>
+</singers>
+<length>2:29</length>
+<song_released_date>October 15, 2020</song_released_date>
+<description>"Lonely" is a song by Canadian singer Justin Bieber and American record producer Benny Blanco. 
+The song was written by Bieber, Blanco and Finneas, with production handled by the latter two. It was released
+ as a single by Friends Keep Secrets, Def Jam Recordings and Interscope Records on October 15, 2020, as the second
+ single from Bieber's sixth studio album Justice (2021) and included on the reissue of Blanco's debut studio album
+ Friends Keep Secrets, released in 2021.
+</description>
+</song>
+
+<song id="S3" year_range="Since 2021">
+<Image id="image_3"/>
+<song_name>Hold on</song_name>
+<director>Colin Tilley</director>
+<writers>
+<h>Writers</h>
+<writer>Justin Bieber</writer>
+<writer>Jon Bellion</writer>
+<writer>Ali Tamposi</writer>
+<writer>Louis Bell</writer>
+</writers>
+<producers>
+<h>Producers</h>
+<producer>Andrew Watt</producer>
+<producer>Louis Bell</producer>
+</producers>
+<singers>
+<h>Singers</h>
+<singer>Justin Bieber</singer>
+</singers>
+<length>2.50</length>
+<song_released_date>October 15, 2020</song_released_date>
+<awards>The song won the Billboard Music Award</awards>
+<description>"Hold On" is a song by Canadian singer Justin Bieber. It was released on March 5, 2021, by Def Jam as 
+the fourth single from his sixth studio album, Justice. The song was written by Bieber alongside Ali Tamposi, Jon Bellion
+ and producers Andrew Watt and Louis Bell. "Hold On" interpolates the 2011 song "Somebody That I Used to Know"; writers
+ Walter De Backer and Luiz Bonfá were given official songwriting credits. A music video starring Bieber and Christine Ko 
+ was released alongside the song.
+</description>
+</song>
+</songs>
+</album>
+
+<album id="A2" delivery_type="free">
+<name>OK Computer</name>
+<genre>Rock</genre>
+<price>$185</price>
+<released_date>21 May 1997</released_date>
+<special_offer>10%</special_offer>
+<songs>
+<song id="S4" year_range="Since 1997">
+<Image id="image_4"/>
+<song_name>Karma Police</song_name>
+<director>Jonathan Glazer</director>
+<writers>
+<h>Writers</h>
+<writer>Thom Yorke</writer>
+<writer>Jonny Greenwood</writer>
+<writer>Colin Greenwood</writer>
+<writer>Philip Saleway</writer>
+</writers>
+<producers>
+<h>Producers</h>
+<producer>Nigel Godrich</producer>
+<producer>Radiohead</producer>
+</producers>
+<singers>
+<h>Singers</h>
+<singer>By the English alternative rock band Radiohead</singer>
+</singers>
+<length>4:24</length>
+<song_released_date>25 August 1997</song_released_date>
+<description>"Karma Police" is a song by the English alternative rock band Radiohead, released as the second 
+single from their third studio album OK Computer (1997) on 25 August 1997. The song charted at number 8 on
+ the UK Singles Chart and at 14 on the US Alternative Songs chart. It was included on Radiohead: The Best 
+ Of (2008).
+</description>
+</song>
+
+<song id="S5" year_range="Since 1998">
+<Image id="image_5"/>
+<song_name>No Surprises</song_name>
+<director>Brandi Carlile</director>
+<writers>
+<h>Writers</h>
+<writer>Brandi Carlile</writer>
+</writers>
+<producers>
+<h>Producers</h>
+<producer>Nigel Godrich</producer>
+<producer>Radiohead</producer>
+</producers>
+<singers>
+<h>Singers</h>
+<singer>By the English alternative rock band Radiohead</singer>
+</singers>
+<length>3:49</length>
+<song_released_date>12 January 1998</song_released_date>
+<description>"No Surprises" is a song by the English alternative rock band Radiohead, released as the 
+fourth single from their third studio album, OK Computer (1997), on 12 January 1998. The music video 
+features songwriter Thom Yorke singing inside a diving helmet as it fills with water. The single peaked
+ at number 4 on the UK Singles Chart.
+</description>
+</song>
+
+<song id="S6" year_range="Since 2017">
+<Image id="image_6"/>
+<song_name>I Promise</song_name>
+<director>Michal Marczak</director>
+<writers>
+<h>Writers</h>
+<writer>Radiohead</writer>
+</writers>
+<producers>
+<h>Producers</h>
+<producer>Tomasz Morawski</producer>
+<producer>Anna Rozalska</producer>
+<producer>Rik Green</producer>
+</producers>
+<singers>
+<h>Singers</h>
+<singer>Colin Greenwood</singer>
+<singer>Jonny Greenwood</singer>
+<singer>Radiohead</singer>
+<singer>Thom Yorke</singer>
+</singers>
+<length>3:59</length>
+<song_released_date>2 June 2017</song_released_date>
+<awards>The song won the Billboard Music Award</awards>
+<description>"Hold On" is a song by Canadian singer Justin Bieber. It was released on March 5, 2021, by Def Jam as 
+the fourth single from his sixth studio album, Justice. The song was written by Bieber alongside Ali Tamposi, Jon Bellion
+ and producers Andrew Watt and Louis Bell. "Hold On" interpolates the 2011 song "Somebody That I Used to Know"; writers
+ Walter De Backer and Luiz Bonfá were given official songwriting credits. A music video starring Bieber and Christine Ko 
+ was released alongside the song.
+</description>
+</song>
+</songs>
+</album>
+</albums>
+<Songs>
+<Song id="S7" year_range="Since 2018">
+<Image id="image_7"/>
+
+<Genre>Filmi, Romantic</Genre>
+<Director>Sajid Nadiadwala</Director>
+<Writers>
+<H>Writers</H>
+<Writer>Arko Pravo Mukherjee</Writer>
+</Writers>
+<Producers>
+<H>Producers</H>
+<Producer>Sajid Nadiadwala</Producer>
+<Song_name>O Sathi</Song_name></Producers>
+<Singers>
+<H>Singers</H>
+<Singer>Atif Aslam</Singer>
+
+</Singers>
+<Length>4:12</Length>
+<Song_released_date>9 March 2018</Song_released_date>
+<Awards>11th Mirchi Music Awards</Awards>
+ <Price>$12</Price>
+<Description>"O Saathi" is a song from 2018 Bollywood film Baaghi 2.
+ The song is sung by Atif Aslam and composed and written by Arko 
+ Pravo Mukherjee.The music video was released on 9 March 2018 by 
+ T-Series on YouTube. It has received over 200 million views on 
+ YouTube as of August 2020.[3] Lyrical video has received over 
+ 331 million views as of August 2020.
+ 
+</Description>
+</Song>
+
+<Song id="S8">
+<Image id="image_8"/>
+<Song_name>Love Me like You Do</Song_name>
+<Genre>Electropop</Genre>
+<Director>Max MArtin</Director>
+<Writers>
+<H>Writers</H>
+<Writer>Savan Kotecha</Writer>
+<Writer>Ilya Salmanzadeh</Writer>
+<Writer>Tove Lo</Writer>
+<Writer>Max Martin</Writer>
+<Writer>Ali Payami</Writer>
+</Writers>
+<Producers>
+<H>Producers</H>
+<Producer>Max Martin</Producer>
+<Producer>Ali Payami</Producer>
+</Producers>
+<Singers year_range="Since 2015">
+<H>Singers</H>
+<Singer>Ellie Goulding</Singer>
+</Singers>
+<Length>4:13</Length>
+<Song_released_date>7 January 2015</Song_released_date>
+<Awards>Grammy Award, Golden Globe Award for Best Original Song, 
+Golden Globe Award for Best Original Song</Awards>
+<Price>$15</Price>
+<Description>"Love Me Like You Do" is a song by English 
+recording artist Ellie Goulding. The track appears on the
+ soundtrack of American erotic/romantic drama film "50
+ Shades of Grey", directed by Sam Taylor-Johnson and, 
+ based on the best-selling novel of the same name 
+ by E. L. James.
+</Description>
+</Song>
+<Song id="S9" year_range="Since 2016">
+<Image id="image_9"/>
+<Song_name>We Don't Talk Anymore</Song_name>
+<Genre>Pop</Genre>
+<Director>Phil Pinto</Director>
+<Writers>
+<H>Writers</H>
+<Writer>Charlie Puth</Writer>
+<Writer>Ilya Salmanzadeh</Writer>
+<Writer>Tove Lo</Writer>
+<Writer>Max Martin</Writer>
+<Writer>Ali Payami</Writer>
+</Writers>
+<Producers>
+<H>Producers</H>
+<Producer>Charlie Puth</Producer>
+</Producers>
+<Singers>
+<H>Singers</H>
+<Singer>Charlie Puth</Singer>
+<Singer>Selena Gomez</Singer>
+</Singers>
+<Length>3:37</Length>
+<Song_released_date>24 May 2016</Song_released_date>
+<Awards>2017 MTV Video Music Awards</Awards>
+<Price>$18</Price>
+<Description>"We Don't Talk Anymore" is a song by American 
+singer Charlie Puth featuring Selena Gomez, from Puth's 
+debut studio album Nine Track Mind (2016). The artists 
+co-wrote the song with Jacob Kasher, Puth produced the 
+song. The song was released on May 24, 2016,[1] as the 
+third single from the album. Musically, it is a pop song
+with a tropical-inspired production.
+
+</Description>
+</Song>
+<Song id="S10" year_range="Since 2015">
+<Image id="image_10"/>
+<Song_name>I Don't Wanna Live Forever</Song_name>
+<Genre>Electro R and B</Genre>
+<Director>Grant Singer</Director>
+<Writers>
+<H>Writers</H>
+<Writer>Taylor Swift</Writer>
+<Writer>Sam Dew</Writer>
+<Writer>Jack Antonoff</Writer>
+</Writers>
+<Producers>
+<H>Producers</H>
+<Producer>Jack Antonoff</Producer>
+</Producers>
+<Singers>
+<H>Singers</H>
+<Singer>Zayn</Singer>
+<Singer>Taylor Swift</Singer>
+</Singers>
+<Length>4:05</Length>
+<Song_released_date>7 January 2015</Song_released_date>
+<Awards>Best Collaboration at the 2017 MTV Video Music Awards,
+ Best Collaboration of the Year at the 2017 MTV Millennial Awards
+ and an IHeartRadio Titanium Award
+</Awards>
+<Price>$15</Price>
+<Description>"Love Me Like You Do" is a song by English 
+recording artist Ellie Goulding. The track appears on the
+ soundtrack of American erotic/romantic drama film "50
+ Shades of Grey", directed by Sam Taylor-Johnson and, 
+ based on the best-selling novel of the same name 
+ by E. L. James.
+</Description>
+</Song>
+</Songs>
+</Music_Store>
+
+

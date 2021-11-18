@@ -1,0 +1,70 @@
+<!DOCTYPE Music_Store [
+<!ELEMENT Music_Store (store_name, address, contract_details, website_address, logo, albums, Songs)>
+<!ATTLIST Music_Store id CDATA #REQUIRED>
+<!ATTLIST Music_Store xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST Music_Store xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+<!ATTLIST Music_Store established_Date CDATA #REQUIRED>
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT address (provience, district, city, (postal_code|zip_code))>
+<!ELEMENT provience (#PCDATA)>
+<!ELEMENT district (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>
+<!ELEMENT zip_code (#PCDATA)>
+<!ELEMENT contract_details ((telephone_no|mobile_no), email*)>
+<!ELEMENT telephone_no (#PCDATA)>
+<!ELEMENT mobile_no (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT website_address (#PCDATA)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT albums (album+)>
+<!ATTLIST albums caterogy CDATA #REQUIRED>
+<!ELEMENT album (name, genre, price, released_date, special_offer*, songs+)>
+<!ATTLIST album id CDATA #REQUIRED>
+<!ATTLIST album delivery_type (free|express_delivery) #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT released_date (#PCDATA)>
+<!ELEMENT special_offer (#PCDATA)>
+<!ELEMENT songs (song+)>
+<!ELEMENT song (Image, song_name, director, writers, producers, singers, length, song_released_date, awards*, description)>
+<!ELEMENT Image (#PCDATA)>
+<!ATTLIST Image id CDATA #REQUIRED>
+<!ELEMENT song_name (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT writers (h, writer+)>
+<!ELEMENT h (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT producers (h, producer+)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT singers (h, singer+)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT song_released_date (#PCDATA)>
+<!ELEMENT awards (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST song id CDATA #REQUIRED>
+<!ATTLIST song year_range CDATA #REQUIRED>
+<!ELEMENT Songs (Song+)>
+<!ELEMENT Song (Image, Song_name, Genre, Director, Writers, Producers, Singers, Length, Song_released_date, Awards*, Price, Description)>
+<!ELEMENT Song_name (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Writers (H, Writer+)>
+<!ELEMENT H (#PCDATA)>
+<!ELEMENT Writer (#PCDATA)>
+<!ELEMENT Producers (H, Producer+)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Singers (H, Singer+)>
+<!ELEMENT Singer (#PCDATA)>
+<!ELEMENT Length (#PCDATA)>
+<!ELEMENT Song_released_date (#PCDATA)>
+<!ELEMENT Awards (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ATTLIST Song id CDATA #REQUIRED>
+<!ATTLIST Song year_range CDATA #REQUIRED>
+]>
+
+
